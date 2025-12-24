@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Data Files - Generated outputs
+*.xlsx
+*.xls
+*.html
+*.parquet
+*.csv
+*.json
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+
+
+# Large Census Data
+Cartografia_censo2024_Pais/
+*.parquet
+/xlsx 
+# Specific Output Files
+Cobertura_Censo24_Por_Manzana.xlsx
+Cobertura_Censo24_Resumen_Aldeas.xlsx
+Oportunidades_Expansion_PUDOs.xlsx
+Oportunidades_Hub_Rural.xlsx
+Analisis_Ruralidad_Comunas.xlsx
+Mapa_Cobertura_Nacional_Blue.html
+Mapa_Oportunidades_Rurales_Hub.html
+
+# Environment variables and credentials
+.env
+.env.local
+*.env
+credentials.py
+config.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
